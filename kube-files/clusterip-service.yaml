@@ -4,7 +4,7 @@ metadata:
   name: my-app-clusterip
 spec:
   selector:
-    app: my-app
+    app: demoapp
   ports:
     - protocol: TCP
       port: 80
